@@ -1,0 +1,47 @@
+
+      body{
+        margin: 0;
+      }
+
+      a {
+        color:black;
+        
+        }
+
+      h1{
+        text-align: center;
+        border-bottom: 3px solid gray;
+        margin: 0;
+        padding: 20px
+      }
+
+      ol{
+        border-right: 3px solid gray;
+        width:150px;
+        margin: 0;
+        padding: 20px;
+      }
+
+
+      #hey{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+      }
+
+      #hey ol{
+        padding-left: 33px;
+      }
+
+       #hey #hello{
+        padding-left: 25px;
+      }
+
+      @media(max-width:800px){
+        #hey{
+          display: block;
+        }
+        ol{
+          border-right:none;}
+          h1{
+            border-bottom:none;}
+      }
